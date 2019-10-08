@@ -17,3 +17,9 @@ spring:
   profiles: item2
   
 server:  port: 8002
+  
+  rabbitmq:
+    host: 192.168.92.128
+    port: 5672
+    username: admin
+    password: admin  
